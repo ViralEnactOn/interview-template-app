@@ -91,6 +91,9 @@ Welcome to the React Store Showcase App project! In this practical exercise, you
 
    - Fetch data seamlessly from the API and render it on the frontend for both categories and individual stores.
 
+   Categories : http://localhost:3001/categories
+   Stores : http://localhost:3001/stores
+
 3. **Sorting Options:**
 
    - Implement sorting options for stores based on API parameters like Alpha, Popularity, and Cashback.
@@ -100,21 +103,33 @@ Welcome to the React Store Showcase App project! In this practical exercise, you
 
    - Integrate category filtering functionality for stores based on API parameters.
 
+   Ref : http://localhost:3001/stores?cats=16
+
 5. **Efficient Search Feature:**
 
    - Enable an efficient search feature, facilitating users in locating specific stores effortlessly.
 
 6. **Specific Filters for Store Attributes:**
 
-   - Implement specific filters for different store attributes, including "Claimable," "Cashback Enabled," "Sharable Stores," "Featured Stores," and "Promoted Stores."
+   - Implement specific filters for different store attributes, including "Claimable Stores," "Cashback Enabled Stores," "Sharable Stores," "Featured Stores," and "Promoted Stores."
+
+     - "Claimable Stores": http://localhost:3001/stores?is_claimable=1
+     - "Cashback Enabled Stores": http://localhost:3001/stores?cashback_enabled=1
+     - "Sharable Stores": http://localhost:3001/stores?is_shareable=1
+     - "Featured Stores": http://localhost:3001/stores?is_featured=1
+     - "Promoted Stores": http://localhost:3001/stores?is_promoted=1
 
 7. **Multiple Filters:**
 
    - Allow users to apply multiple filters simultaneously.
 
+   - Ref : http://localhost:3001/stores?\_page=1&\_per_page=5?is_claimable=1
+
 8. **Infinite Scroll:**
 
    - Integrate an Infinite Scroll feature, dynamically loading additional stores as users scroll through the interface.
+
+   - Ref : http://localhost:3001/stores?\_page=1&\_per_page=25
 
 9. **Favorite Stores:**
 
