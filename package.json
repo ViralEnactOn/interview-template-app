@@ -16,9 +16,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "concurrently --names \"react app, apis\" \"npm run start_react\"  \"npm run host_json\"",
+    "start": "concurrently --names \"react app, apis\" \"npm run start_react\"  \"npm run start_api\"",
     "start_react": "react-scripts start",
-    "host_json": "npx json-server db.json -p 3001",
+    "start_api": "npx json-server db.json -p 3001",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
